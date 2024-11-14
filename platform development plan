@@ -1,0 +1,41 @@
+MVP Development Plan
+1. Platform Planning Overview
+The MVP will include the essential features to test functionality, get early user feedback, and validate the core business idea. The initial prototype will include:
+
+User Registration and Authentication
+Client Dashboard (upload files, track job progress)
+File Upload System
+Admin Dashboard (basic job management)
+Transcriptionist Dashboard (view and submit jobs)
+Order Placement and Status Tracking
+Payment Integration (placeholder for future implementation)
+2. Directory Structure
+available in form of image locate gpros platform structure
+
+3. Prototype of MVP: Initial Setup
+3.1 Base HTML Template
+Create a base template (base.html) with a consistent layout that other templates will extend. This template will include:
+
+Bootstrap for styling.
+FontAwesome for icons.
+Google Fonts for typography.
+
+3.2 Views and URLs
+We'll create class-based views for the main functionalities:
+
+4. Colors and Visuals
+Use the recommended color scheme:
+Primary: Deep Blue (#2D3E50)
+Secondary: Teal (#009688)
+Accent: Light Green (#A5D6A7)
+5. Development Plan
+Phase 1: Set up the Django project, install dependencies, and create apps (accounts, client, transcription, admin_panel).
+Phase 2: Build user registration and authentication views.
+Phase 3: Develop the client and transcriptionist dashboards.
+Phase 4: Implement file upload functionality.
+Phase 5: Add admin views for job management.
+Phase 6: Conduct basic testing and deploy the MVP.
+Next Steps
+Create models for users, transcription jobs, and file uploads.
+Build out templates for the dashboard views and order forms.
+Implement file handling and progress tracking for jobs.
